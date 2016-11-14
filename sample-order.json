@@ -1,0 +1,205 @@
+export default {
+  'customer_order_id': '52318504',
+  'status': 'Amended',
+  'is_bagless_order': 'yes',
+  'status_update_date_time': '2016-09-22 14:26:30.254',
+  'sales_channel': 'Groceries Online',
+  'currency': 'GBP',
+  'is_green_delivery': 'yes',
+  'delivery_amount': '0.00',
+  'total_order_amount': '47.17',
+  'tax': {
+    'tax_authority': 'Bag charges',
+    'tax_amount': ''
+  },
+  'voucher': [ {
+    'voucher_ean': '9911770072504',
+    'voucher_quantity': 0
+  }, {
+    'voucher_ean': '9904519061006',
+    'voucher_quantity': 0
+  }, {
+    'voucher_ean': '9904519060016',
+    'voucher_quantity': 99
+  } ],
+  'customer_account': {
+    'id': '1007501',
+    'type': 'Web'
+  },
+  'loyalty_card': {
+    'card_number': '9826300068497459019'
+  },
+  'collegue_discount_card': {
+    'card_number': ''
+  },
+  'order_line': [ {
+    'sku': '2588308',
+    'ean': '5000221104742',
+    'regular_unit_price': '1.30',
+    'actual_unit_price': '1.30',
+    'quantity': '1.0',
+    'weight': '1.00',
+    'uom': 'ea',
+    'weight_range': '',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  }, {
+    'sku': '2258720',
+    'ean': '5000134026247',
+    'regular_unit_price': '4.99',
+    'actual_unit_price': '4.99',
+    'quantity': '1.5',
+    'weight': '1.50',
+    'uom': 'kg',
+    'weight_range': '1.2kg-1.5kg',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  }, {
+    'sku': '2946146',
+    'ean': '5010103917797',
+    'regular_unit_price': '29.89',
+    'actual_unit_price': '29.89',
+    'quantity': '1.0',
+    'weight': '70.00',
+    'uom': 'ltr',
+    'weight_range': '',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  }, {
+    'sku': '1198003',
+    'ean': '2698740000008',
+    'regular_unit_price': '2.35',
+    'actual_unit_price': '2.35',
+    'quantity': '1.0',
+    'weight': '0.12',
+    'uom': 'kg',
+    'weight_range': '',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  }, {
+    'sku': '1196795',
+    'ean': '0000000040235',
+    'regular_unit_price': '3.99',
+    'actual_unit_price': '3.99',
+    'quantity': '1.04',
+    'weight': '0.52',
+    'uom': 'kg',
+    'weight_range': '',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  }, {
+    'sku': '4002710',
+    'ean': '5015821140489',
+    'regular_unit_price': '1.49',
+    'actual_unit_price': '0.99',
+    'quantity': '3.0',
+    'weight': '1.50',
+    'uom': 'kg',
+    'weight_range': '',
+    'preferences': {
+      'is_substitute_product_allowed': 'no'
+    }
+  } ],
+  'delivery': {
+    'delivery_slot': {
+      'slot_id': '52320505x3',
+      'is_click_and_collect': 'no',
+      'is_green_delivery': 'yes',
+      'is_delivery_pass': 'yes',
+      'delivery_time': '2016-09-23T09:30:00.000+01:00',
+      'location': {
+        'location_id': '0680'
+      },
+      'slot_display_string': '9:30am - 10:00am',
+      'slot_band': 'morning',
+      'slot_price': '3.00',
+      'start_date_time': '2016-09-23T09:30:00.000+01:00',
+      'end_date_time': '2016-09-23T10:00:00.000+01:00',
+      'duration': '30'
+    },
+    'collection_location': {
+      'id': ''
+    },
+    'delivery_address': {
+      'nick_name': 'mahesh',
+      'delivery_instructions': '*** First Order *** Bag Free Order ***',
+      'items': '6',
+      'address': {
+        'line1': 'Josephs Road',
+        'line2': '16 SPRINGSIDE COURT,JOSEPHS ROAD',
+        'line3': '',
+        'city': 'Guildford',
+        'county': 'Surrey',
+        'postcode': 'GU1 1BT',
+        'country': '',
+        'geo_location': {
+          'latitude': '51.2478486672',
+          'longitude': '-0.5766656304'
+        }
+      },
+      'contact_email': {
+        'email_address': 'maheshmk47@gmail.com',
+        'type': 'Primary'
+      },
+      'contact_telephone': {
+        'formatted_number': '01234567891',
+        'type': 'Mobile'
+      },
+      'contact_name': {
+        'title': 'Mr',
+        'first': 'Mahesh',
+        'middle': '',
+        'last': 'Kumar'
+      }
+    }
+  },
+  'customer_payment': {
+    'card': {
+      'card_token': '3014151%2CXwbXbxZ%2F0hmXIaCbJTFTYWPIS8c%3D',
+      'masked_pan': '***************1112',
+      'type': 'VISA',
+      'name_on_card': 'mahesh',
+      'expiration': {
+        'month': '09',
+        'year': '2017'
+      }
+    },
+    'billing_address': {
+      'line1': 'Josephs Road',
+      'line2': '16 SPRINGSIDE COURT,JOSEPHS ROAD',
+      'line3': '',
+      'city': 'Guildford',
+      'county': 'Surrey',
+      'postcode': 'GU1 1BT',
+      'country': '',
+      'geo_location': {
+        'latitude': '51.2478486672',
+        'longitude': '-0.5766656304'
+      }
+    },
+    'response': {
+      'acsUrl': '',
+      'attempts': '1',
+      'authToken': 'AAABARR5kwAAAAAAAAAAAAAAAAA=',
+      'checkEnrollmentResult': 'PENDING',
+      'eci': '05',
+      'errorMessage': '',
+      'errorMessageAuthenticationResponse': '',
+      'paReq': '1',
+      'paRes': '',
+      'paymentId': '',
+      'validAuthenticationResult': 'AUTHENTICATED',
+      'xid': 'IOpg8jyg1ekXsjXkuKcRcJMp0vk=',
+      'transactionStatus': 'BEFORE_AUTHORISATION'
+    }
+  },
+  'device': {
+    'agent_info': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:45.0) Gecko/20100101 Firefox/45.0'
+  }
+};
+
